@@ -88,8 +88,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
       <Mainlogin></Mainlogin>
-        <Text>Estado: {this.state.appState}</Text>  
-            
+        <Text>Estado: {this.state.appState}</Text>            
         <Text>Resolución detectada: {this.state.Screenres.height} x  {this.state.Screenres.width}</Text>               
       </View>      
     );
