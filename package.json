@@ -9,7 +9,11 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.8.0",
@@ -19,6 +23,9 @@
     "eslint-plugin-standard": "^3.0.1",
     "jest-expo": "^23.0.0",
     "react-test-renderer": "^16.1.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/jest"
   },
   "jest": {
     "preset": "jest-expo"
