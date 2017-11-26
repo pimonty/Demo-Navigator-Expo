@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  keyboardVerticalOffset={0}
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#151515",
+        "flex": 1,
+      },
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 33,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": 200,
+          "width": 200,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 32,
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "backgroundColor": "#FFFFBB",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "marginBottom": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Conectar con Firebase (
+      portrait
+      ) 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "backgroundColor": "#FEFAFE",
+          "fontWeight": "300",
+          "textAlign": "center",
+        }
+      }
+    >
+      Usuario: fj.proteus@gmail.com
+    </Text>
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        editable={true}
+        keyboardType="email-address"
+        maxLength={40}
+        multiline={false}
+        onChangeText={[Function]}
+        placeholder="User"
+        placeholderTextColor="rgba(155,155,145,0.7)"
+        returnKeyType="next"
+        style={
+          Object {
+            "backgroundColor": "rgba(255,255,255,0.2)",
+            "borderColor": "gray",
+            "borderWidth": 1,
+            "height": 50,
+            "marginBottom": 20,
+            "paddingHorizontal": 10,
+          }
+        }
+      />
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "backgroundColor": "#FEFAFE",
+          "fontWeight": "300",
+          "textAlign": "center",
+        }
+      }
+    >
+      Clave: contrasena
+    </Text>
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        editable={true}
+        maxLength={40}
+        onChangeText={[Function]}
+        placeholder="Password"
+        placeholderTextColor="rgba(155,155,145,0.7)"
+        returnKeyType="go"
+        secureTextEntry={true}
+        style={
+          Object {
+            "backgroundColor": "rgba(255,255,255,0.2)",
+            "borderColor": "gray",
+            "borderWidth": 1,
+            "height": 50,
+            "marginBottom": 20,
+            "paddingHorizontal": 10,
+          }
+        }
+      />
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "backgroundColor": "#151515",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "marginBottom": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      
+    </Text>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      collapsable={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#2E9AFE",
+          "opacity": 1,
+          "paddingVertical": 10,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "backgroundColor": "#2E9AFE",
+            "fontWeight": "700",
+            "paddingVertical": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        Login test
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders the ActivityIndicator component 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="#999999"
+  hidesWhenStopped={true}
+  size="small"
+/>
+`;
+
+exports[`renders the Image component 1`] = `
+<Image
+  style={
+    Object {
+      "height": 240,
+      "width": 320,
+    }
+  }
+/>
+`;
+
+exports[`renders the ListView component 1`] = `
+<RCTScrollView
+  dataSource={
+    ListViewDataSource {
+      "items": 3,
+    }
+  }
+  renderRow={[Function]}
+  renderScrollComponent={[Function]}
+>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      apple
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      banana
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      kiwi
+    </Text>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`renders the TextInput component 1`] = `
+<TextInput
+  allowFontScaling={true}
+  autoCorrect={false}
+  value="apple banana kiwi"
+/>
+`;
