@@ -69,3 +69,20 @@ it('renders the ListView component', () => {
         .toJSON();
     expect(tree).toMatchSnapshot();
 });
+
+it('usuario', async()=>{
+    await element(by.id('usuario')).tap();
+    await element(by.id('usuario')).clearText();
+    await element(by.id('usuario')).typeText('info@email.com');
+})
+
+it('clave', async () => {
+    await element(by.id('clave')).tap();
+    await element(by.id('clave')).clearText();
+    await element(by.id('clave')).typeText('123456');
+})
+
+
+
+
+

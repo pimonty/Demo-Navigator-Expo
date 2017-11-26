@@ -133,6 +133,7 @@ export default class Mainlogin extends React.Component {
                     {/* Support any param to Inputext component */}
                     <Text style={styles.Texto_UserPass}>Usuario: fj.proteus@gmail.com</Text>
                     <Inputlog
+                        testID='usuario' 
                         style={BoolPortrait ? styles.txtinput_p : styles.txtinput_l}
                         placeholder='User'
                         returnKeyType='next'
@@ -153,6 +154,7 @@ export default class Mainlogin extends React.Component {
                         ref={(input) => datalogin.user = input} />
                     <Text style={styles.Texto_UserPass}>Clave: contrasena</Text>
                     <Inputlog
+                        testID='clave'
                         style={BoolPortrait ? styles.txtinput_p : styles.txtinput_l}
                         placeholder='Password'
                         returnKeyType='go'
